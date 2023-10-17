@@ -1,0 +1,24 @@
+{
+    "name": "iacreative/consume-external-service",
+    "description": "Package for Laravel consuming external services, which can be a microservice or a partner Api",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "fruitcake/laravel-cors": "^2.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "laravel/framework": "^8.75"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iacreative\\ConsumeExternalService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "iacreative",
+            "email": "ia2design@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
